@@ -1,0 +1,24 @@
+<script context="module">
+  // disabled hydrate = false because mobile nav becomes unresponsive :(
+  // TODO: other options for mobile nav
+  // export const hydrate = false // about pages dont need it!
+  // more info https://twitter.com/Rich_Harris/status/1376578504704331778?s=20
+</script>
+
+# What a wild and strange trip this has all been...
+
+![Career-Path](https://user-images.githubusercontent.com/17350652/183015644-532841ec-06ba-4157-aaf5-90c493008e20.png)
+
+My name is Cody De Arkland! I'm a former infrastructure guy who found his way into building applications and living in the world of dev. I've always been fascinated by the way we all end up coming to be at our current stations in our careers. Some people find their way naturally - by going to a school, apprenticeship, and it's a logical path. Others (myself included...) found our way here by accident. Did you know once upon a time all I wanted to be was a cellular device product manager at a major utility on the west coast? 
+
+I spent many years focused on enterprise automation, and infrastructure. From there, I ventured into the world of vendor and focused on developer/DevOps technologies - specifically service mesh and HashiCorp and for a short while at Kong. 
+
+Today, I work at [LaunchDarkly](https://www.launchdarkly.com) where I look after a group of really talented Developer Relations members (across Technical Marketing, Developer Experience, and Developer Advocacy). I'm extremely passionate about developer/practitioner marketing and telling authentic stories that help people USING tools learn how to do it more effectively and with less 2am wake up calls when things break.
+
+I'm a HUGE believer in community, and I try to be an advocate for mental health. I love talking about ALL of these topics (and even career in general). Reach me on [Twitter](https://www.twitter.com/codydearkland) or [LinkedIn](https://www.linkedin.com/in/codydearkland) to talk any time! 
+
+## Acknowledgements
+
+- Massive blog inspiration from Shawn Wang's Swyxkit: https://twitter.com/swyx
+- His design, largely based on Lee Robinson: https://github.com/leerob/leerob.io/
+
