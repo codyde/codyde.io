@@ -55,19 +55,16 @@
 			</h2>
 			<br />
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				I work at <a href="https://www.launchdarkly.com"><span class="text-yellow-500">LaunchDarkly</span></a> where I lead a team
-				focused on helping developers and teams learn ways to deploy software faster. I love
-				learning. I'm passioniate about mental health, community, and mentorship. When I'm not
-				working, I'm hanging out with my wife Shannon, our daughters Hayley and Morgan, training my
-				Goldendoodle Charlie, or working on my BBQ craft and the journey to smoke the perfect peice
-				of meat.
+				I work at <a href="https://www.launchdarkly.com"><span class="text-yellow-500">LaunchDarkly</span></a> where I lead a team focused on helping developers and teams learn ways to deploy software faster. I spend most of my days building content and implementing strategies to create better connections with developer and practitioners in the technical community. Content wise, I spend most of my time building video and blog content - but enjoy most forms of digital content creation. 
 				<br />
 				<br />
-				In my past lives I've worked for VMware, HashiCorp, and Kong. In "pre-vendor" times, I spent
-				most of my time at a major utility on the West Coast.
+				I love learning. I'm passioniate about mental health, community, and mentorship. When I'm not working, I'm hanging out with my wife Shannon, our daughters Hayley and Morgan, training my Goldendoodle Charlie, or working on my BBQ craft and the journey to smoke the perfect peice of meat.
 				<br />
 				<br />
-				If you want to chat about these, or anything really, I encourage you to reach out! Enjoy your
+				In my past lives I've had a variety of operational and architecture roles within the utility industry, as well as a mix of sales, marketing, and advocacy roles at VMware, HashiCorp, and Kong. 
+				<br />
+				<br />
+				If you want to chat about these, or anything really, I encourage you to reach out using the social links below! Enjoy your
 				visit!
 			</h2>
 			<div class="flex flex-row gap-3">
