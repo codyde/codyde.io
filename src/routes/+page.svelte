@@ -51,7 +51,7 @@
 				Cody De Arkland
 			</h1>
 			<h2 class="mb-3 text-xl text-black  dark:text-yellow-300 md:text-lg">
-				Coder | Builder | BBQ'er | Mentor | Friend
+				Builder | Advocate | Marketer | BBQ'er | Dad Joke Maker
 			</h2>
 			<br />
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
