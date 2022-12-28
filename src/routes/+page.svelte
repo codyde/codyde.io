@@ -61,11 +61,10 @@
 				I love learning. I'm passioniate about mental health, community, and mentorship. When I'm not working, I'm hanging out with my wife Shannon, our daughters Hayley and Morgan, training my Goldendoodle Charlie, or working on my BBQ craft and the journey to smoke the perfect peice of meat.
 				<br />
 				<br />
-				In my past lives I've had a variety of operational and architecture roles within the utility industry, as well as a mix of sales, marketing, and advocacy roles at VMware, HashiCorp, and Kong. 
+				In my past lives I've had a variety of operational and architecture roles within the utility industry, as well as a mix of sales, marketing, and advocacy roles at <a href="https://www.vmware.com"><span class="text-yellow-500">VMware</span></a>, <a href="https://www.hashicorp.com"><span class="text-yellow-500">HashiCorp</span></a>, and <a href="https://www.kong.com"><span class="text-yellow-500">Kong</span></a>. 
 				<br />
 				<br />
-				If you want to chat about these, or anything really, I encourage you to reach out using the social links below! Enjoy your
-				visit!
+				If you want to chat about these, or anything really, I encourage you to reach out using the social links below! Enjoy your visit!
 			</h2>
 			<div class="flex flex-row gap-3">
 				<a href="https://hachyderm.io/@codydearkland">
