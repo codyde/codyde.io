@@ -97,6 +97,8 @@ pre {
 		/* https://ishadeed.com/article/defensive-css */
 		min-width: 50%;
 		object-fit: cover;
+		margin-left: auto;
+    	margin-right: auto;
 	}
 
 	mypic {

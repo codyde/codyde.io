@@ -17,7 +17,7 @@
 
 <svelte:head>
 	<title>{json.title}</title>
-	<meta name="description" content="swyxkit blog" />
+	<meta name="description" content="Cody De Arkland's Blog" />
 
 	<link rel="canonical" href={canonical} />
 	<meta property="og:url" content={canonical} />
@@ -55,9 +55,10 @@
 	<div
 		class="-mx-4 my-2 flex h-1 w-[100vw] bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-900  sm:mx-0 sm:w-full"
 	/>
-	{@html json.content}
-	<!-- <div class="swyxcontent prose mt-16 mb-32 w-full max-w-none flex-row dark:prose-invert">
-	</div> -->
+	
+	<div class="prose mt-16 mb-32 w-full max-w-none flex-row dark:prose-invert">
+		{@html json.content}
+	</div>
 </article>
 <div class="mx-auto max-w-6xl">
 	<div class="prose mb-12 border-t border-b border-blue-800 p-4 dark:prose-invert">
