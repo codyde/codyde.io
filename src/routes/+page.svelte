@@ -132,7 +132,7 @@
 			/>
 			<FeatureCard
 				title="KIND and Load Balancing with MetalLB and MacOS"
-				href="/anatomy-of-my-macos-terminal"
+				href="/kind-and-metallb-on-mac"
 				stringData="Mar 2020"
 			/>
 			<FeatureCard
