@@ -36,15 +36,14 @@
 	class="mx-auto flex max-w-6xl flex-col items-start justify-center border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8"
 >
 	<div class="grid grid-cols-3 items-start sm:flex-row">
-		<div class="col-start-1 w-full">
+		<div class="hidden xl:inline col-start-1 w-full">
 			<img
 				class="mx-auto flex h-24 w-24 justify-center rounded-3xl align-middle shadow-2xl xl:h-72 xl:w-72"
 				src="/me.png"
 				alt="humblelab"
 			/>
 		</div>
-
-		<div class="col-span-2 col-start-2">
+		<div class="xl:col-span-2 xl:col-start-2 col-span-3 col-start-1 w-full">
 			<h1
 				class="mb-3 text-3xl font-bold tracking-tight text-black dark:text-yellow-500 md:text-5xl"
 			>
@@ -53,6 +52,13 @@
 			<h2 class="mb-3 text-xl text-black  dark:text-yellow-300 md:text-lg">
 				Builder | Advocate | Marketer | BBQ'er | Dad Joke Maker
 			</h2>
+			<div class="visible xl:hidden w-full">
+				<img
+					class="mx-auto flex h-72 w-72 justify-center rounded-3xl align-middle shadow-2xl xl:h-72 xl:w-72"
+					src="/me.png"
+					alt="humblelab"
+				/>
+			</div>
 			<br />
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				I work at <a href="https://www.launchdarkly.com"><span class="text-yellow-500">LaunchDarkly</span></a> where I lead a team focused on helping developers and teams learn ways to deploy software faster. I spend most of my days building content and implementing strategies to create better connections with developer and practitioners in the technical community. Content wise, I spend most of my time building video and blog content - but enjoy most forms of digital content creation. 
