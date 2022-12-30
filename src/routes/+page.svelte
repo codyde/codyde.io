@@ -196,7 +196,6 @@
 				href="https://konghq.com/blog/scaling-service-mesh"
 				stringData="Jul 2021"
 			/>
-			
 		</div>
 	</section>
 
@@ -235,6 +234,30 @@
 				description="People often use feature flags to rollout new databases or cloud services. In this video I show rolling out 
 				a new database change using feature flags and LaunchDarkly."
 				stringData="Jan 22"
+			/>
+			<ContentCard
+				title="Understanding Gateway Mode in Kuma Service Mesh"
+				href="https://youtu.be/livro7I5TzQ"
+				description="Learn how Kuma, an open source service mesh, and Kong Mesh for enterprise allow you to use ANY API gateway as a 'doorway' into the service mesh using 'Gateway Mode.'"
+				stringData="Jun 21"
+			/>
+			<ContentCard
+				title="Kong Builders - Getting Started with Kuma Service Mesh"
+				href="https://www.youtube.com/live/dOOuz1fadv0?feature=share"
+				description="Cody De Arkland from Kong discusses some of the basics of service mesh and how to get set up on Kuma."
+				stringData="Jun 21"
+			/>
+			<ContentCard
+				title="Up and Running with HCP Consul on AWS, Service Mesh, and Terraform"
+				href="https://youtu.be/f8L1Z55i7vU"
+				description="Unpack how we build consistent networking between services running in AWS with Consul Service Mesh for the HashiCorp Cloud Platform and unpack how we simplify and scale our management with Terraform Cloud."
+				stringData="Nov 20"
+			/>
+			<ContentCard
+				title="Tech Field Day - Application First Networking with Consul"
+				href="https://youtu.be/R9zDU2_UeMk"
+				description="Demonstrates HashiCorp Consul, using Nomad to deploy workloads and connect multiple environments together in a practical service mesh."
+				stringData="Nov 20"
 			/>
 		</div>
 	</section>
