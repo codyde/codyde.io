@@ -132,9 +132,9 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
-				title="Let's talk about 'Imposter Syndrome'"
-				href="/lets-talk-about-imposter-syndrome"
-				stringData="Jun 2018"
+				title="Building Your Corner of the Internet"
+				href="/your-corner-of-the-internet"
+				stringData="Jan 2023"
 			/>
 			<FeatureCard
 				title="KIND and Load Balancing with MetalLB and MacOS"
