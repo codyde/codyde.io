@@ -137,9 +137,9 @@
 				stringData="Jan 2023"
 			/>
 			<FeatureCard
-				title="KIND and Load Balancing with MetalLB and MacOS"
-				href="/kind-and-metallb-on-mac"
-				stringData="Mar 2020"
+				title="What's in the Box? CodyDe.io Edition"
+				href="/whats-in-the-box"
+				stringData="Jan 2023"
 			/>
 			<FeatureCard
 				title="Anatomy of my MacOS Terminal"
