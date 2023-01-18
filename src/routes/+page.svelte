@@ -132,13 +132,13 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
-				title="Building Your Corner of the Internet"
-				href="/your-corner-of-the-internet"
-				stringData="Jan 2023"
-			/>
-			<FeatureCard
 				title="What's in the Box? CodyDe.io Edition"
 				href="/whats-in-the-box"
+				stringData="Jan 2023"
+			/>
+   <FeatureCard
+				title="Building Your Corner of the Internet"
+				href="/your-corner-of-the-internet"
 				stringData="Jan 2023"
 			/>
 			<FeatureCard
