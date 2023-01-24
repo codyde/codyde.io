@@ -11,8 +11,31 @@
 </script>
 
 <script>
+	// import { onMount } from 'svelte';
+	// import LDClient from 'launchdarkly-js-client-sdk';
+	import * as LaunchDarkly from 'launchdarkly-js-client-sdk'
+	import { browser } from "$app/environment";
+	import { getFlagValue } from '../lib/launchdarkly/client.js'
 	import FeatureCard from '../components/FeatureCard.svelte';
 	import ContentCard from '../components/ContentCard.svelte';
+	// let user = {
+	// 	key: "anonymous"
+	// }
+	
+	// let showFeatured = false
+	// onMount(async () => {
+	// 	const ldClient = await LDClient.initialize('63cf735f934f2d132aeda4ff', user);
+    //     showFeatured = await ldClient.variation('show-featured', false);
+	// 	console.log(showFeatured)
+    // });
+	let showFeatured = false
+	if (browser) {
+		getFlagValue('show-featured', setMyFlag).then(setMyFlag)
+	}
+	function setMyFlag(val) {
+		showFeatured = val
+	}
+	
 </script>
 
 <svelte:head>
@@ -125,6 +148,7 @@
 	</div>
 
 	<section class="mb-8 w-full">
+		{#if showFeatured}
 		<h3
 			class="mb-6 mt-3 text-2xl font-bold tracking-tight text-black dark:text-yellow-400 md:text-4xl"
 		>
@@ -147,6 +171,7 @@
 				stringData="Mar 2020"
 			/>
 		</div>
+		{/if}
 		<a
 			class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
 			href="/blog"
