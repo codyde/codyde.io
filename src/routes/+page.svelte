@@ -10,7 +10,7 @@
 	export const prerender = true; // index page is most visited, lets prerender
 </script>
 
-<script>
+<script lang='ts'>
 	// import { onMount } from 'svelte';
 	// import LDClient from 'launchdarkly-js-client-sdk';
 	import * as LaunchDarkly from 'launchdarkly-js-client-sdk'
