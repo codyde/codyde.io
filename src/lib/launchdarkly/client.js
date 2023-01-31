@@ -41,6 +41,11 @@ async function initialize(context) {
         name: 'Device',
         OS: await operatingSytem(),
         platform: await device()
+      },
+      location: {
+        key: uuidv4(),
+        name: 'Location',
+        timezone: await Intl.DateTimeFormat().resolvedOptions().timeZone
       }
     }
   }
