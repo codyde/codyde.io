@@ -66,8 +66,13 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@supabase/auth-helpers-sveltekit": "^0.8.7",
+		"@supabase/supabase-js": "^2.5.0",
 		"date-fns": "^2.29.3",
 		"launchdarkly-js-client-sdk": "^3.1.0",
+		"launchdarkly-node-server-sdk": "^7.0.0",
+		"netlify": "^13.1.2",
+		"netlify-cli": "^12.10.0",
 		"parse-link-header": "^2.0.0",
 		"prism-themes": "^1.9.0",
 		"remark": "^14.0.2",

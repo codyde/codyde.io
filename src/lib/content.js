@@ -5,6 +5,7 @@ import {
 	GH_USER_REPO,
 	APPROVED_POSTERS_GH_USERNAME,
 	GH_PUBLISHED_TAGS,
+	GH_TESTING_TAGS,
 	REPO_OWNER
 } from './siteConfig';
 import parse from 'parse-link-header';
@@ -14,6 +15,9 @@ import remarkStringify from 'remark-stringify';
 import rehypeStringify from 'rehype-stringify';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutoLink from 'rehype-autolink-headings';
+import { getFlagValue } from './launchdarkly/ld.server';
+
+const myFlag = await getFlagValue("tag-render");
 
 const remarkPlugins = undefined;
 const rehypePlugins = [

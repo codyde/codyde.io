@@ -8,6 +8,7 @@ export const MY_TWITTER_HANDLE = 'codydearkland	';
 export const MY_YOUTUBE = 'https://youtube.com/codydearkland';
 export const POST_CATEGORIES = ['Blog']; // Other categories you can consider adding: Talks, Tutorials, Snippets, Podcasts, Notes...
 export const GH_PUBLISHED_TAGS = ['Published'];
+export const GH_TESTING_TAGS = ['Draft'];
 
 // auto generated variables
 export const REPO_URL = 'https://github.com/' + GH_USER_REPO;

@@ -2,6 +2,22 @@
 	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
 	import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
+	import { supabase } from '$lib/supabaseClient'
+    import { invalidate } from '$app/navigation'
+    import { onMount } from 'svelte'
+
+	onMount(() => {
+		const {
+			data: { subscription },
+			} = supabase.auth.onAuthStateChange(() => {
+			invalidate('supabase:auth')
+		})
+
+		return () => {
+			subscription.unsubscribe()
+		}
+  	})
+
 </script>
 
 <svelte:head>
