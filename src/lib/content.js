@@ -15,9 +15,7 @@ import remarkStringify from 'remark-stringify';
 import rehypeStringify from 'rehype-stringify';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutoLink from 'rehype-autolink-headings';
-import { getFlagValue } from './launchdarkly/ld.server';
 
-const myFlag = await getFlagValue("tag-render");
 
 const remarkPlugins = undefined;
 const rehypePlugins = [

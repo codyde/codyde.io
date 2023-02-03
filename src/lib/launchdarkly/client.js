@@ -17,7 +17,6 @@ async function operatingSytem() {
 	if (navigator.userAgent.indexOf('Linux') != -1) OSName = 'Linux';
 	if (navigator.userAgent.indexOf('iPhone') != -1) OSName = 'iPhone';
 	if (navigator.userAgent.indexOf('Android') != -1) OSName = 'Android';
-	console.log(OSName);
 	return OSName;
 }
 
@@ -27,7 +26,6 @@ async function device() {
 	} else {
 		DeviceType = 'Desktop';
 	}
-	console.log(DeviceType);
 	return DeviceType;
 }
 
@@ -51,7 +49,6 @@ export async function identify(){
 			timezone: await Intl.DateTimeFormat().resolvedOptions().timeZone
 		}
 	};
-	console.log(context)
 	await launchDarklyClient.identify(context)
 	console.log("Identified without user")
 }
@@ -60,7 +57,6 @@ export async function initialize(context) {
 	try {
 		user = await supabase.auth.getUser();
 		appuser = user.data.user?.user_metadata.email;
-		console.log(user);
 	} catch {
 		appuser = 'anonymous';
 		console.log("Caught problem, assigned "+appuser)
@@ -86,7 +82,6 @@ export async function initialize(context) {
 			}
 		};
 	}
-	console.log(context);
 	const client = LaunchDarkly.initialize(import.meta.env.VITE_LAUNCHDARKLY_SDK_KEY, context);
 	await client.waitForInitialization();
 	return client;
@@ -101,7 +96,6 @@ export async function getFlagValue(key, fnChangeListener) {
 	const client = await getClient();
 	let flagValue;
 	flagValue = await client.variation(key, false);
-	console.log(flagValue)
 	if (fnChangeListener) {
 		client.on('change:' + key, fnChangeListener);
 	}

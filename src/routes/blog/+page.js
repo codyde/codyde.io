@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+
 // export const prerender = true; // turned off so it refreshes quickly
 export async function load({ setHeaders, fetch }) {
 	const res = await fetch(`/api/listContent.json`);

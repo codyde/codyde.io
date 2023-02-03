@@ -1,26 +1,26 @@
-<script>
+<script lang='ts'>
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 
 	import { SITE_TITLE, POST_CATEGORIES } from '$lib/siteConfig';
+	import IndexCard from 'src/components/IndexCard.svelte';
 
-	import IndexCard from '../../components/IndexCard.svelte';
 
 	/** @type {import('./$types').PageData} */
-	export let data;
+	export let data: any;
 
 	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
 	/** @type {import('$lib/types').ContentItem[]} */
 	$: items = data.items;
 
-	function searchParamToArray(key) {
+	function searchParamToArray(key: any) {
 		return ($page.url.searchParams.get(key) || '').split(',').filter((e) => e);
 	}
 
 	let selectedCategories = searchParamToArray('show');
 	let search = $page.url.searchParams.get('filter') || '';
-	let inputEl;
+	let inputEl: any;
 
 	$: if (browser) {
 		if (selectedCategories.length) {
@@ -36,13 +36,13 @@
 		goto(`?${$page.url.searchParams.toString()}`, { noScroll: true, keepFocus: true });
 	}
 
-	function focusSearch(e) {
+	function focusSearch(e: any) {
 		if (e.key === '/' && inputEl) inputEl.select();
 	}
 
 	let isTruncated = items?.length > 20;
 	$: list = items
-		.filter((item) => {
+		.filter((item: any) => {
 			if (selectedCategories.length) {
 				return selectedCategories
 					.map((element) => {
@@ -52,7 +52,7 @@
 			}
 			return true;
 		})
-		.filter((item) => {
+		.filter((item: any) => {
 			if (search) {
 				return item.title.toLowerCase().includes(search.toLowerCase());
 			}

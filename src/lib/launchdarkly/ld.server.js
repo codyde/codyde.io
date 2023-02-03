@@ -11,7 +11,7 @@ async function getClient() {
   if (launchDarklyClient) return launchDarklyClient
   return (launchDarklyClient = await initialize())
 }
-export async function getFlagValue(key, user) {
+export async function getFlagValue(key, user, callback) {
   const client = await getClient()
   let flagValue
   if (!user) {
@@ -21,5 +21,6 @@ export async function getFlagValue(key, user) {
   }
   flagValue = await client.variation(key, user, false)
   console.log("Hi this is "+ flagValue)
+  client.on("update:" +key, callback)
   return flagValue
 }
