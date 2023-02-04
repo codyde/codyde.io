@@ -18,7 +18,6 @@
 	import { page } from '$app/stores';
 	import Auth from "./Auth.svelte";
 	import Logout from "./Logout.svelte";
-
 	let showAuth: boolean;
 
 	if (browser) {
@@ -45,6 +44,7 @@
 	<meta name="twitter:title" content={SITE_TITLE} />
 	<meta name="twitter:description" content={SITE_DESCRIPTION} />
 	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </svelte:head>
 
 <div
@@ -57,13 +57,6 @@
 				src="/me.png"
 				alt="humblelab"
 			/>
-			{#if showAuth}
-				{#if !$page.data.session}
-					<Auth />
-				{:else}
-					<Logout />
-				{/if}
-			{/if}
 
 		</div>
 		<div class="xl:col-span-2 xl:col-start-2 col-span-3 col-start-1 w-full">

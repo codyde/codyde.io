@@ -2,6 +2,9 @@
 	import MobileMenu from './MobileMenu.svelte';
 	import { REPO_URL } from '$lib/siteConfig';
 	import NavLink from './NavLink.svelte';
+	import { page } from '$app/stores';
+	import Auth from '../routes/Auth.svelte';
+	import Logout from '../routes/Logout.svelte';
 	let isDark = false;
 	if (typeof localStorage !== 'undefined') {
 		if (
@@ -128,6 +131,11 @@
 				</svg>
 			{/if}
 		</button>
+		{#if !$page.data.session}
+			<Auth />
+		{:else}
+			<Logout />
+		{/if}
 	</div>
 </nav>
 

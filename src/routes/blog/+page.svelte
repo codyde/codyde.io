@@ -20,7 +20,7 @@
 		decode: (str)=> str?.split(",")?.filter((e) => e) ?? [],
 	});
 	let search = queryParam("filter");
-	let inputEl;
+	let inputEl: any;
 
 	function focusSearch(e) {
 		if (e.key === '/' && inputEl) inputEl.select();
@@ -31,14 +31,14 @@
 		.filter((item) => {
 			if ($selectedCategories?.length) {
 				return $selectedCategories
-					.map((element) => {
+					.map((element: any) => {
 						return element.toLowerCase();
 					})
 					.includes(item.category.toLowerCase());
 			}
 			return true;
 		})
-		.filter((item) => {
+		.filter((item: any) => {
 			if ($search) {
 				return item.title.toLowerCase().includes($search.toLowerCase());
 			}

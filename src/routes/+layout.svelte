@@ -27,6 +27,8 @@
 		title={'RSS Feed for ' + SITE_TITLE}
 		href="/rss.xml"
 	/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </svelte:head>
 
 <div class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-gray-800 sm:px-8">
