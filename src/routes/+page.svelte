@@ -196,11 +196,6 @@
 				stringData="Feb 2024"
 			/>
 			<FeatureCard
-				title="ChatGPT won’t take your job, but it can make you more efficient and knowledgeable"
-				href="https://sdtimes.com/ai/chatgpt-wont-take-your-job-but-it-can-make-you-more-efficient-and-knowledgeable/"
-				stringData="Jan 2024"
-			/>
-			<FeatureCard
 				title="The Core Tenents of Technical Marketing"
 				href="https://devmarketing.c4media.com/p/the-core-tenets-of-technical-marketing"
 				stringData="Oct 2022"
@@ -209,13 +204,6 @@
 				title="How We Toggle in LaunchDarkly"
 				href="https://launchdarkly.com/blog/how-we-toggle-at-launchdarkly/"
 				stringData="May 2022"
-			/>
-		</div>
-		<div class=" flex flex-col gap-6 md:flex-row">
-			<FeatureCard
-				title="LaunchDarkly in a Kubernetes World"
-				href="https://launchdarkly.com/blog/launchdarkly-kubernetes/"
-				stringData="Apr 2022"
 			/>
 			<FeatureCard
 				title="Evolution of Feature: Growing Beyond Software Delivery"
