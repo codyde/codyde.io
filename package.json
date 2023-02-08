@@ -68,6 +68,7 @@
 	"dependencies": {
 		"@supabase/auth-helpers-sveltekit": "^0.8.7",
 		"@supabase/supabase-js": "^2.5.0",
+		"@sveltejs/adapter-netlify": "^2.0.1",
 		"date-fns": "^2.29.3",
 		"launchdarkly-js-client-sdk": "^3.1.0",
 		"launchdarkly-node-server-sdk": "^7.0.0",
