@@ -191,29 +191,35 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
-				title="Evolution of Feature: Growing Beyond Software Delivery"
-				href="https://thenewstack.io/evolution-of-a-feature-growing-beyond-software-delivery/"
-				stringData="Nov 2021"
+				title="OpenAI, ChatGPT and the Next Age of ‘Build’"
+				href="https://thenewstack.io/openai-chatgtp-and-the-next-age-of-build/"
+				stringData="Feb 2024"
 			/>
-
+			<FeatureCard
+				title="ChatGPT won’t take your job, but it can make you more efficient and knowledgeable"
+				href="https://sdtimes.com/ai/chatgpt-wont-take-your-job-but-it-can-make-you-more-efficient-and-knowledgeable/"
+				stringData="Jan 2024"
+			/>
 			<FeatureCard
 				title="The Core Tenents of Technical Marketing"
 				href="https://devmarketing.c4media.com/p/the-core-tenets-of-technical-marketing"
 				stringData="Oct 2022"
 			/>
-
 			<FeatureCard
 				title="How We Toggle in LaunchDarkly"
 				href="https://launchdarkly.com/blog/how-we-toggle-at-launchdarkly/"
 				stringData="May 2022"
 			/>
-
 			<FeatureCard
 				title="LaunchDarkly in a Kubernetes World"
 				href="https://launchdarkly.com/blog/launchdarkly-kubernetes/"
 				stringData="Apr 2022"
 			/>
-
+			<FeatureCard
+				title="Evolution of Feature: Growing Beyond Software Delivery"
+				href="https://thenewstack.io/evolution-of-a-feature-growing-beyond-software-delivery/"
+				stringData="Nov 2021"
+			/>
 			<FeatureCard
 				title="Scaling Service Mesh Globally"
 				href="https://konghq.com/blog/scaling-service-mesh"
