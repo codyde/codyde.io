@@ -210,6 +210,8 @@
 				href="https://launchdarkly.com/blog/how-we-toggle-at-launchdarkly/"
 				stringData="May 2022"
 			/>
+		</div>
+		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
 				title="LaunchDarkly in a Kubernetes World"
 				href="https://launchdarkly.com/blog/launchdarkly-kubernetes/"
