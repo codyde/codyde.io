@@ -149,19 +149,19 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
+				title="The Next Age of DevRel"
+				href="/next-age-devrel"
+				stringData="Feb 2023"
+			/>
+			<FeatureCard
 				title="What's in the Box? CodyDe.io Edition"
 				href="/whats-in-the-box"
 				stringData="Jan 2023"
 			/>
-   <FeatureCard
+   			<FeatureCard
 				title="Building Your Corner of the Internet"
 				href="/your-corner-of-the-internet"
 				stringData="Jan 2023"
-			/>
-			<FeatureCard
-				title="Anatomy of my MacOS Terminal"
-				href="/anatomy-of-my-macos-terminal"
-				stringData="Mar 2020"
 			/>
 		</div>
 		<a
