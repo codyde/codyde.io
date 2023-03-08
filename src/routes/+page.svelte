@@ -154,7 +154,7 @@
 				stringData="Mar 2023"
 			/>
 			<FeatureCard
-				title="The Next Age of DevRel"
+				title="The Next Age of Developer Relations"
 				href="/next-age-devrel"
 				stringData="Feb 2023"
 			/>
