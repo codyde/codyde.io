@@ -149,6 +149,11 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
+				title="Anatomy of Awareness - DevRel Edition"
+				href="/anatomy-of-awareness"
+				stringData="Mar 2023"
+			/>
+			<FeatureCard
 				title="The Next Age of DevRel"
 				href="/next-age-devrel"
 				stringData="Feb 2023"

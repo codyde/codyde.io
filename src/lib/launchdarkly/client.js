@@ -84,6 +84,7 @@ export async function initialize(context) {
 	}
 	const client = LaunchDarkly.initialize(import.meta.env.VITE_LAUNCHDARKLY_SDK_KEY, context);
 	await client.waitForInitialization();
+	console.log(context)
 	return client;
 }
 
