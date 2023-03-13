@@ -80,7 +80,7 @@
 				I work at <a href="https://www.launchdarkly.com"><span class="text-yellow-500">LaunchDarkly</span></a> where I lead a team focused on helping developers and teams learn ways to deploy software faster. I spend most of my days building content and implementing strategies to create better connections with developer and practitioners in the technical community. Content wise, I spend most of my time building video and blog content - but enjoy most forms of digital content creation. 
 				<br />
 				<br />
-				I love learning. I'm passioniate about mental health, community, and mentorship. When I'm not working, I'm hanging out with my wife Shannon, our daughters Hayley and Morgan, training my Goldendoodle Charlie, or working on my BBQ craft and the journey to smoke the perfect peice of meat.
+				I love learning. I'm passionate about mental health, community, and mentorship. When I'm not working, I'm hanging out with my wife Shannon, our daughters Hayley and Morgan, training my Goldendoodle Charlie, or working on my BBQ craft and the journey to smoke the perfect piece of meat.
 				<br />
 				<br />
 				In my past lives I've had a variety of operational and architecture roles within the utility industry, as well as a mix of sales, marketing, and advocacy roles at <a href="https://www.vmware.com"><span class="text-yellow-500">VMware</span></a>, <a href="https://www.hashicorp.com"><span class="text-yellow-500">HashiCorp</span></a>, and <a href="https://www.kong.com"><span class="text-yellow-500">Kong</span></a>. 
