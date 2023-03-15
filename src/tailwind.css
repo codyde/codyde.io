@@ -124,7 +124,8 @@ h6 a {
 	text-decoration: none !important;
 	@apply text-yellow-800 dark:text-yellow-500;
 }
-.prose h2::before {
+
+/* .prose h2::before {
 	content: '## ';
 }
 .prose h3::before {
@@ -132,7 +133,7 @@ h6 a {
 }
 .prose h4::before {
 	content: '#### ';
-}
+} */
 
 /* https://seek-oss.github.io/capsize/ */
 .capsize::before {
