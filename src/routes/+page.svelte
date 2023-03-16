@@ -149,6 +149,11 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
+				title="Write them a Story with NextJS and OpenAI"
+				href="/story-nextjs-openai"
+				stringData="Mar 2023"
+			/>
+			<FeatureCard
 				title="Anatomy of Awareness - DevRel Edition"
 				href="/anatomy-of-awareness"
 				stringData="Mar 2023"
@@ -157,11 +162,6 @@
 				title="The Next Age of Developer Relations"
 				href="/next-age-devrel"
 				stringData="Feb 2023"
-			/>
-			<FeatureCard
-				title="What's in the Box? CodyDe.io Edition"
-				href="/whats-in-the-box"
-				stringData="Jan 2023"
 			/>
    			<FeatureCard
 				title="Building Your Corner of the Internet"
