@@ -208,7 +208,7 @@
 			<FeatureCard
 				title="OpenAI, ChatGPT and the Next Age of ‘Build’"
 				href="https://thenewstack.io/openai-chatgtp-and-the-next-age-of-build/"
-				stringData="Feb 2024"
+				stringData="Feb 2023"
 			/>
 			<FeatureCard
 				title="The Core Tenents of Technical Marketing"
