@@ -196,6 +196,16 @@
 		</h3>
 		<div class=" flex flex-col gap-6 md:flex-row">
 			<FeatureCard
+				title="AI Development in LaunchDarkly: Release, Measure, and Iterate"
+				href="https://launchdarkly.com/blog/ai-development-with-launchdarkly/"
+				stringData="Dec 2023"
+			/>
+			<FeatureCard
+				title="Controlling the Machines: Feature Flagging Meets AI"
+				href="https://thenewstack.io/controlling-the-machines-feature-flagging-meets-ai/"
+				stringData="Sep 2023"
+			/>
+			<FeatureCard
 				title="OpenAI, ChatGPT and the Next Age of ‘Build’"
 				href="https://thenewstack.io/openai-chatgtp-and-the-next-age-of-build/"
 				stringData="Feb 2024"
@@ -206,20 +216,11 @@
 				stringData="Oct 2022"
 			/>
 			<FeatureCard
-				title="How We Toggle in LaunchDarkly"
-				href="https://launchdarkly.com/blog/how-we-toggle-at-launchdarkly/"
-				stringData="May 2022"
-			/>
-			<FeatureCard
 				title="Evolution of Feature: Growing Beyond Software Delivery"
 				href="https://thenewstack.io/evolution-of-a-feature-growing-beyond-software-delivery/"
 				stringData="Nov 2021"
 			/>
-			<FeatureCard
-				title="Scaling Service Mesh Globally"
-				href="https://konghq.com/blog/scaling-service-mesh"
-				stringData="Jul 2021"
-			/>
+			
 		</div>
 	</section>
 
@@ -228,6 +229,18 @@
 			Video Content
 		</h3>
 		<div class=" flex flex-col">
+			<ContentCard
+				title="LaunchDarkly + AWS: Iterating on AI With LaunchDarkly and Amazon Bedrock"
+				href="https://youtu.be/dTyxRnuI3FQ"
+				description="LaunchDarkly should be a default tool in the toolbelt of anyone building AI applications. In this video, we show why, with Amazon Bedrock."
+				stringData="Dec 23"
+			/>
+			<ContentCard
+				title="Talkin Ship: LaunchDarkly Use Cases Demo"
+				href="https://youtu.be/apQ4invZh-Q"
+				description="An overview of how LaunchDarkly can be used to across multiple different core use cases - everything from standard releases through migrations, entitlements, measurement and more."
+				stringData="Jun 23"
+			/>
 			<ContentCard
 				title="What is a Feature Flag?"
 				href="https://youtu.be/eBT9bCRIHWQ"
